@@ -26,7 +26,7 @@ h3{
 }
 
 p{
-    font-weight: 400;
+    font-weight: 600;
     font-size: 18px;
     color:#393939;
 }
@@ -61,7 +61,15 @@ p{
     background-color: #FFF0ED;
     position: relative;
     display: flex;
-    align-items:baseline;
+    align-items: center; 
+    justify-content: space-between; 
+    /* padding: 10px 20px; Optional padding */
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .logo{
