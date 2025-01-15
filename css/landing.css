@@ -12,13 +12,16 @@
 }
 
 .top-content p{
-    width: 50%;
+    width: 60%;
+    font-weight: 700;
+    font-size: 18px;
+    color:#393939;
+    padding: 20px;
 }
 
 .image-content {
     max-width: 100%;
     height: auto;
-    max-height: 360px;
 }
 
 button{
@@ -27,6 +30,7 @@ button{
     border-color: white;
     width: 180px;
     padding: 20px;
+    margin: 15px;
 }
 
 .mid-content{
