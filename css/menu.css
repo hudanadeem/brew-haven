@@ -1,81 +1,71 @@
-body{
-    text-size-adjust : 33px;
-    font-weight: light 300;
-}
-
-p{
-    font-weight: 400;
-    font-size: 18px;
-    color:#393939;
-    text-align: center;
-}
-
 .brand{
     text-decoration: none;
     font-weight: 300;
     color:#393939;
-    font-size: 60px;
+    font-size: 3.75rem;
+    padding: .9375rem;
 }
 
 .menu {
     position: relative;
     text-align: center;
+    overflow: hidden;
 }
 
 .menu-title {
     position: absolute;
-    top: 0; 
-    left: 50%; 
-    transform: translate(-50%, 0); 
-    font-size: 60px;
+    top: 13rem;
+    left: 37rem;
+    font-size: 3.75rem;
     font-weight: 300;
     color: white;
-    width: 300px;
-    height: 200px;
+    width: auto;
     background-color: #393939;
+    padding: 3.125rem 4.375rem 3.125rem 4.375rem;           
+    box-sizing: border-box;
     text-align: center;
-    padding: 20px;
-    box-sizing: border-box; 
 }
 
 .coffee-circle {
+    height: 600px;
     max-width: 100%;
-    height: 700px;
     display: block;
     margin: 0 auto;
+    object-fit: cover; 
+    transform: scale(1.76);
+    overflow: hidden;
+    position: relative;
 }
 
 .hot-drinks, .pastries{
     background-color: #FFF0ED;
     text-align: center;
     margin: 0;
-    padding: 10px 0; 
+    padding: .625rem 0;
 }
 
  .cold-drinks{
     background-color: #F7F7F7;
     text-align: center;
     margin: 0;
-    padding: 10px 0; 
+    padding: .625rem 0; 
 }
 
 .drinks-nav {
     list-style: none;
-    font-size: 21px;
-    font-weight: 400;
+    font-size: 1.3125rem;
+    font-weight: 600;
     background-color: #393939;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    margin: 0;
-    padding: 0;
-
+    height: 5rem;
+    position: relative;
 }
 
 .drinks-nav li {
-    padding: 0 20px;
-    border-left: 4px solid #5BACC3;
+    padding: 0 1.25rem;
+    border-left: 0.25rem solid #5BACC3;
 }
 
 .drinks-nav a {
@@ -87,5 +77,5 @@ p{
 .desc{
     margin: 0 auto;
     font-style: italic;
-    max-width: 500px;
+    max-width: 31.25rem;
 }

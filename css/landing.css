@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: center; 
     align-items: center;
-    padding: 40px 20px; 
+    padding: 2.5rem, 1.25rem;
 }
 
 .top-content {
@@ -14,9 +14,9 @@
 .top-content p{
     width: 50%;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
     color:#393939;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .image-content {
@@ -30,8 +30,8 @@ button{
     border-color: white;
     width: 180px;
     padding: 15px;
-    margin: 0px 0px 55px 15px;
-    font-size: 20px;
+    margin: 0rem 0rem 3.4375rem .9375rem;
+    font-size: 1.25rem;
 }
 
 .mid-content{
@@ -48,7 +48,7 @@ section h2{
 
 .deal-section {
     background-color: white;
-    padding: 200px 100px;
+    padding: 12.5rem 6.25rem;
     text-align: center;
     width: 100%;
 }
@@ -56,10 +56,10 @@ section h2{
     max-width: 80%;
     background-color: #393939;
     color: white;
-    font-size: 45px;
+    font-size: 2.8125rem;
     text-align: center;
     font-weight: 700;
-    padding: 40px 0px 40px 0px;
+    padding: 2.5rem 0rem 2.5rem 0rem;
     margin: 0 auto; 
     box-sizing: border-box;
 }
@@ -70,7 +70,7 @@ section h2{
 
 footer{
     background-color: #FFF0ED;
-    padding: 20px;
+    padding: 1.25rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -79,7 +79,7 @@ footer{
 .card {
     display: flex;
     position: relative;
-    margin: 20px auto;
+    margin: 1.25rem auto;
     padding: 2%;
     max-width: 1200px;
     align-items: center;
@@ -89,19 +89,19 @@ footer{
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 90px;
+    gap: 5.625rem;
     flex-wrap: wrap;
 }
 
 .card__list-item {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 400px;
+    width: 18.75rem;
+    height: 25rem;
     background-color: #ffffff;
-    border-radius: 10px;
-    padding: 0px;
-    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    border-radius: .625rem;
+    padding: 0rem;
+    box-shadow: 0 0.3125rem, 0.5625rem 0.0625rem rgba(0, 0, 0, 0.25); 
 }
 
 .card__list-image-container {
@@ -109,9 +109,9 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 200px;
-    padding: 20px 0px 20px 0px;
+    width: 18.75rem;
+    height: 12.5rem;
+    padding: 1.25rem, 0rem, 1.25rem, 0rem;
 }
 
 .card__list-info{
@@ -128,8 +128,8 @@ footer{
 .card__list-title {
     font-weight: 550;
     color: #393939;
-    font-size: 33px;
-    margin-bottom: 10px;
+    font-size: 2.0625rem;
+    margin-bottom: .625rem;
 }
 
 .card__list-price {
@@ -144,31 +144,31 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem; 
     background-color: #FFF0ED;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0rem 0rem 0.625rem 0.625rem;
 
 }
 
 .card__list-pack{
-    padding: 0px;
-    margin-bottom: 10px;
+    padding: 0rem;
+    margin-bottom: .625rem;
     font-weight: 700;
     color: #909090;
 }
 
 .mid-content h2{
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .icon{
-    width: 50px;
+    width: 3.125rem;
     height: auto;
 }
 
 footer h3{
     font-weight: 500;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 
 }
 
@@ -181,13 +181,13 @@ footer p{
     background-color: #ffffff;
     flex-direction: row;
     align-items: center;
-    padding: 70px;
+    padding: 4.375rem;
 }
 
 .info__icon{
-    width: 50px;
+    width: 3.125rem;
     height: auto;
-    margin: 20px 60px 20px 20px;
+    margin: 1.25rem, 3.75rem, 1.25rem, 1.25rem; 
 }
 
 
@@ -200,21 +200,20 @@ footer p{
 
 .info__section-words{
     width: 40%;
-    margin-left: 50px;
-    margin-top: 100px;
+    margin-left: 3.125rem;
+    margin-top: 6.25rem;
 }
 
 .info__section-words h2{
-    margin-right: 100px;
+    margin-right: 6.25rem;
 }
 
 .info__section-words p{
-    margin-left: 20px;
+    margin-left: 1.25rem;
     width: 80%;
 }
 
 .info__image--can{ 
-    /* transform: translate(-50%, -50%) rotate(-15deg);  */
     position: absolute;
     bottom: -70rem;
     right:16rem;
@@ -222,8 +221,8 @@ footer p{
 }
 
 .info__image--background{
-    height: 400px;
-    margin-top: 100px;
-    margin-left: 300px;
+    height: 25rem;
+    margin-top: 6.25rem;
+    margin-left: 18.75rem;
     position: relative;
 }

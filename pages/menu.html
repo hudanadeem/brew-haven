@@ -11,10 +11,13 @@
 <body>
     <header>
         <div class = "header-top">
-            <a href="../index.html">
-                <img class = "logo" src="../assets/logos/coffee-beans-logo-and-footer.svg" alt="logo"> 
-            </a>
-            <a href="../index.html" class="brand">nitro</a>
+            <div class = "header__logo">
+                <a href="../index.html">
+                    <img class = "logo" src="../assets/logos/coffee-beans-logo-and-footer.svg" alt="logo"> 
+                </a>
+                <a href="../index.html" class="brand">nitro</a>
+                 <!-- <h2>nitro</h2> -->
+            </div>
             <nav class = "nav">
                 <ul class = "nav__list">
                     <li class = "nav__list-item">
@@ -31,18 +34,20 @@
         </div>
 
         <div class="menu">
+            <div>
+                <img class="coffee-circle" src="../assets/images/coffee-circle.jpg" alt="coffee bean">
+            </div>
             <h1 class="menu-title">MENU</h1>
-            <img class="coffee-circle" src="../assets/images/coffee-circle.jpg" alt="coffee bean">
             <ul class="drinks-nav">
-                <li><a href="#">HOT DRINKS</a></li>
-                <li><a href="#">COLD DRINKS</a></li>
-                <li><a href="#">PASTRIES</a></li>
+                <li><a href="#hot-drinks">HOT DRINKS</a></li>
+                <li><a href="#cold-drinks">COLD DRINKS</a></li>
+                <li><a href="#pastries">PASTRIES</a></li>
             </ul>
         </div>
     </header>
 
     <article>
-        <section class = "hot-drinks">
+        <section id ="hot-drinks" class = "hot-drinks">
             <h2>Hot Drinks</h2>
             <h3>In-house Brew</h3>
             <p class = "desc">Our in-house medium roast is a classic balance between sweet vanilla, nutty hazelnut, and a smooth low acidity to 
@@ -54,7 +59,7 @@
             <p class = "price">$4.99</p> 
         </section>
 
-        <section class = "cold-drinks">
+        <section id = "cold-drinks" class = "cold-drinks">
             <h2>Cold Drinks</h2>
 
             <h3>Cold Brew</h3>
@@ -67,7 +72,7 @@
             <p class = "price">$6.99</p>
         </section>
 
-        <section class = "pastries">
+        <section id = "pastries" class = "pastries">
             <h2>Pastries</h2>
 
             <h3>Bacon Oatmeal Raisin Cookie</h3>

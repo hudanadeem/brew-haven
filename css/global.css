@@ -13,27 +13,27 @@ ul {
 }
 
 h1, h2{
-    font-weight: 400;
+    font-weight: 500;
     color:#393939;
-    font-size: 60px;
-    padding: 15px
+    font-size: 3.75rem;
+    padding: .9375rem;
 }
 
 h3{
-    font-weight: 300;
+    font-weight: 500;
     color:#393939;
-    font-size: 33px;
+    font-size: 2.0625rem;
 }
 
 p{
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 800;
+    font-size: 1.125rem;
     color:#393939;
 }
 
 .price {
     color: #5BACC3;
-    padding: 10px 0; 
+    padding: .625rem 0; 
 }
 
 .nav__list {
@@ -44,7 +44,7 @@ p{
 
 .nav__link{
     text-decoration: none;
-    font-size: 21px;
+    font-size: 1.3125rem;
     font-weight: 600;
     color: #393939;
 }
@@ -63,17 +63,16 @@ p{
     display: flex;
     align-items: center; 
     justify-content: space-between; 
-    /* padding: 10px 20px; Optional padding */
 }
 
 .header__logo{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: .625rem;
 }
 
 .logo{
-    width: 50px;
+    width: 3.125rem;
     margin-left: .625rem;
     height: auto;
 }
