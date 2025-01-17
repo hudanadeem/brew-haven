@@ -12,11 +12,12 @@
 }
 
 .top-content p{
-    width: 50%;
+    width: 55%;
     font-weight: 700;
     font-size: 1.125rem;
     color:#393939;
     padding: 1.25rem;
+    margin-bottom: 1.5rem;
 }
 
 .image-content {
@@ -24,14 +25,18 @@
     height: auto;
 }
 
-button{
+.button{
     background-color: #5BACC3;
     color: white;
-    border-color: white;
     width: 180px;
-    padding: 15px;
-    margin: 0rem 0rem 3.4375rem .9375rem;
+    padding: 12px 30px 12px 30px;
+    margin-left: 0.9375rem;
+    margin-bottom: 4rem;
     font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+
 }
 
 .mid-content{
@@ -101,7 +106,7 @@ footer{
     background-color: #ffffff;
     border-radius: .625rem;
     padding: 0rem;
-    box-shadow: 0 0.3125rem, 0.5625rem 0.0625rem rgba(0, 0, 0, 0.25); 
+    box-shadow: 0 .3125rem .5625rem -0.0625rem rgba(0,0,0,0.25);
 }
 
 .card__list-image-container {
@@ -187,14 +192,17 @@ footer p{
 .info__icon{
     width: 3rem;
     height: auto;
-    margin: 20px 60px 20px 20px;
+    margin-right: 90px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 
 .info_icon-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 2rem;
 }
 
 .info__section-words{
