@@ -57,7 +57,7 @@ p{
     width: 20%;
 }
 
-.header-top {
+.header--top {
     background-color: #FFF0ED;
     position: relative;
     display: flex;
@@ -71,7 +71,7 @@ p{
     gap: .625rem;
 }
 
-.logo{
+.header__logo-link{
     width: 3.125rem;
     margin-left: .625rem;
     height: auto;

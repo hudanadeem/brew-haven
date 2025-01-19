@@ -1,4 +1,4 @@
-.brand{
+.header__brand{
     text-decoration: none;
     font-weight: 300;
     color:#393939;
@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 
-.menu-title {
+.menu__title {
     position: absolute;
     top: 14rem;
     left: 38rem;
@@ -26,13 +26,13 @@
     z-index: 1;
 }
 
-.menu-border_container {
+.menu__title-container {
     position: relative;
     display: inline-block;
     width: fit-content;  
 }
 
-.menu-border{
+.menu__border{
     position: absolute;
     top: 13rem; 
     left: 37rem; 
@@ -43,7 +43,7 @@
     z-index: 2;     
 }
 
-.coffee-circle {
+.menu__image {
     height: 600px;
     max-width: 100%;
     display: block;
@@ -55,21 +55,21 @@
     z-index: 0;
 }
 
-.hot-drinks, .pastries{
+.main__section--hot-drinks, .pastries{
     background-color: #FFF0ED;
     text-align: center;
     margin: 0;
     padding: .625rem 0;
 }
 
- .cold-drinks{
+.main__section--cold-drinks{
     background-color: #F7F7F7;
     text-align: center;
     margin: 0;
     padding: .625rem 0; 
 }
 
-.drinks-nav {
+.menu__drinks-nav {
     list-style: none;
     font-size: 1.3125rem;
     font-weight: 600;
@@ -81,19 +81,24 @@
     position: relative;
 }
 
-.drinks-nav li {
+.menu__drinks-item {
     padding: 0 1.25rem;
     border-left: 0.25rem solid #5BACC3;
 }
 
-.drinks-nav a {
+.menu__drinks-link {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
 }
 
-.desc{
+.main__item-desc{
     margin: 0 auto;
     font-style: italic;
     max-width: 31.25rem;
+}
+
+.main__item-price {
+    color: #5BACC3;
+    padding: .625rem 0; 
 }
