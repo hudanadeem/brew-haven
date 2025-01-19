@@ -23,20 +23,41 @@
 .image-content {
     max-width: 100%;
     height: auto;
+    margin-bottom: 3rem;
 }
 
 .button{
     background-color: #5BACC3;
     color: white;
-    width: 180px;
-    padding: 12px 30px 12px 30px;
+    width: 181px;
+    padding: 15px 45px 20px 30px;
     margin-left: 1.2rem;
     margin-bottom: 4rem;
     font-size: 1.25rem;
     font-weight: 700;
     text-decoration: none;
     text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
 
+.button-container {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    margin-bottom: 4rem;
+}
+
+.border {
+    position: absolute;
+    top: -20px; 
+    left: 13px; 
+    width: calc(100% - 20px); 
+    height: calc(100% + 35px); 
+    box-sizing: border-box;   
+    border: 2px solid #393939;
+    z-index: 2;     
 }
 
 .mid-content{
@@ -84,7 +105,7 @@ footer{
 .card {
     display: flex;
     position: relative;
-    margin: 1.25rem auto;
+    margin: 1.25rem 0 3rem;
     padding: 2%;
     max-width: 1200px;
     align-items: center;
@@ -222,7 +243,7 @@ footer p{
 
 .info__image--can{ 
     position: absolute;
-    bottom: -63.25rem;
+    bottom: -66.25rem;
     right:18rem;
 
 }
@@ -232,4 +253,22 @@ footer p{
     margin-top: 6.25rem;
     margin-left: 18.75rem;
     position: relative;
+    z-index: 0;
+    width: 25rem;
+}
+
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+
+.background-border{
+    position: absolute;
+    top: 5rem;
+    left: 17.5rem;
+    width: calc(100% - 300px); 
+    height: calc(100% - 100px); 
+    border: 5px solid #5BACC3;
+    z-index: 2;
+    box-sizing: border-box;
 }
