@@ -40,6 +40,7 @@
     text-transform: uppercase;
     position: relative;
     z-index: 1;
+    pointer-events: auto;
 }
 
 .button-container {
@@ -58,6 +59,7 @@
     box-sizing: border-box;   
     border: 2px solid #393939;
     z-index: 2;     
+    pointer-events: none;
 }
 
 .mid-content{
@@ -94,13 +96,7 @@ section h2{
     font-weight: 900;
 }
 
-footer{
-    background-color: #FFF0ED;
-    padding: 1.25rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+
 
 .card {
     display: flex;
@@ -192,16 +188,6 @@ footer{
     height: auto;
 }
 
-footer h3{
-    font-weight: 500;
-    padding-bottom: 1.25rem;
-
-}
-
-footer p{
-    font-weight: 600;
-
-}
 .info__section{
     display: flex;
     background-color: #ffffff;
@@ -271,4 +257,37 @@ footer p{
     border: 5px solid #5BACC3;
     z-index: 2;
     box-sizing: border-box;
+}
+
+footer h3{
+    font-weight: 500;
+    padding-bottom: 1.25rem;
+
+}
+
+footer p{
+    font-weight: 600;
+
+}
+.logo-right{
+    width: 120px;
+    opacity: 25%;
+    position: relative;
+    left: 7rem;
+    bottom: -2rem;
+}
+.logo-left{
+    width: 120px;
+    opacity: 25%;
+    position: relative;
+    left: -6.5rem;
+    top: -2rem;
+}
+footer{
+    background-color: #FFF0ED;
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
 }
