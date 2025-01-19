@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+h1, h2 {
+  font-weight: 500;
+  color: #393939;
+  font-size: 3.75rem;
+  padding: 0.9375rem;
+}
+
+h3 {
+  font-weight: 500;
+  color: #393939;
+  font-size: 2.0625rem;
+}
+
+p {
+  font-weight: 800;
+  font-size: 1.125rem;
+  color: #393939;
+}
+
+.price {
+  color: #5BACC3;
+  padding: 0.625rem 0;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-size: 1.3125rem;
+  font-weight: 600;
+  color: #393939;
+}
+
+.nav__list-item:last-child .nav__link {
+  color: #5BACC3;
+}
+
+.nav {
+  width: 20%;
+}
+
+.header--top {
+  background-color: #FFF0ED;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.header__logo-link {
+  width: 3.125rem;
+  margin-left: 0.625rem;
+  height: auto;
+}
+
+.header__brand {
+  text-decoration: none;
+  font-weight: 300;
+  color: #393939;
+  font-size: 3.75rem;
+  padding: 0.9375rem;
+}
+
+.menu {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.menu__title {
+  position: absolute;
+  top: 14rem;
+  left: 38rem;
+  font-size: 3.75rem;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #393939;
+  padding: 3rem 5rem 4rem 3rem;
+  box-sizing: border-box;
+  text-align: left;
+  z-index: 1;
+}
+.menu__title-container {
+  position: relative;
+  display: inline-block;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.menu__border {
+  position: absolute;
+  top: 13rem;
+  left: 37rem;
+  width: 18.75rem;
+  height: 12.1875rem;
+  box-sizing: border-box;
+  border: 0.3125rem solid #5BACC3;
+  z-index: 2;
+}
+.menu__image {
+  height: 37.5rem;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: scale(1.76);
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+.menu__drinks-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: 1.3125rem;
+  font-weight: 600;
+  background-color: #393939;
+  height: 5rem;
+  position: relative;
+}
+.menu__drinks-item {
+  padding: 0 1.25rem;
+  border-left: 0.25rem solid #5BACC3;
+}
+.menu__drinks-link {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.main__section--hot-drinks, .main__section--pastries {
+  background-color: #FFF0ED;
+  text-align: center;
+  margin: 0;
+  padding: 0.625rem 0;
+}
+.main__section--cold-drinks {
+  background-color: #F7F7F7;
+  text-align: center;
+  margin: 0;
+  padding: 0.625rem 0;
+}
+.main__item-desc {
+  margin: 0 auto;
+  font-style: italic;
+  max-width: 31.25rem;
+}
+.main__item-price {
+  color: #5BACC3;
+  padding: 0.625rem 0;
+}/*# sourceMappingURL=menu.css.map */

@@ -41,8 +41,6 @@ $color-gray: #F7F7F7;
 
 }
 
-
-
 .button{
     background-color: $color-nitro-blue;
     color: $color-white;
@@ -69,13 +67,20 @@ $color-gray: #F7F7F7;
     &__border {
         position: absolute;
         top: -1.25rem; 
-        left: .8125rem; 
+        left: 0.8125rem; 
         width: calc(100% - 1.25rem); 
         height: calc(100% + 2.1875rem); 
         box-sizing: border-box;   
         border: .125rem solid $color-graphite;
         z-index: 2;     
         pointer-events: none;
+
+        .button:active + & {
+            top: -0.9rem; 
+            left: 1.25rem; 
+            width: calc(100% - 1.25rem); 
+            height: calc(100% + 2.1875rem); 
+          }
     }
 }
 
@@ -166,6 +171,15 @@ $color-gray: #F7F7F7;
     }
 }
 
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
 .info{
     display: flex;
     background-color: $color-white;
@@ -205,7 +219,12 @@ $color-gray: #F7F7F7;
         position: absolute;
         bottom: -66.25rem;
         right:18rem;
-    
+        transition: transform 0.2s ease-in-out;
+        z-index: 2;
+
+        &:hover{
+            animation: spin 2s infinite linear;
+        }
     }
     
     &__background{
@@ -229,11 +248,19 @@ $color-gray: #F7F7F7;
         width: calc(100% - 18.75rem); 
         height: calc(100% - 6.25rem); 
         border: .3125rem solid $color-nitro-blue;
-        z-index: 2;
+        z-index: 1;
         box-sizing: border-box;
     }
 }
 
+@keyframes flash {
+    0%, 100% {
+      background-color: $color-graphite; 
+    }
+    50% {
+      background-color: $color-nitro-blue; 
+    }
+}
 
 .deal {
     background-color: white;
@@ -251,6 +278,7 @@ $color-gray: #F7F7F7;
         padding: 2.5rem 0rem 2.5rem 0rem;
         margin: 0 auto; 
         box-sizing: border-box;
+        animation: flash 2.5s infinite ease-in-out;
     }
     
     &__code{
