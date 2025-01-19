@@ -76,3 +76,11 @@ p{
     margin-left: .625rem;
     height: auto;
 }
+
+.header__brand{
+    text-decoration: none;
+    font-weight: 300;
+    color:#393939;
+    font-size: 3.75rem;
+    padding: .9375rem;
+}

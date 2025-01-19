@@ -15,7 +15,7 @@
                 <a href="../index.html">
                     <img class = "header__logo-link" src="../assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo"> 
                 </a>
-                <h2>nitro</h2>
+                <h2 class = "header__brand">nitro</h2>
             </div>
             <nav class = "nav">
                 <ul class = "nav__list">
@@ -32,22 +32,24 @@
             </nav>
         </div>
 
-        <div class="header-bottom">
-            <div class="top-content">
-                <h1>Nitro Coffee</h1>
-                <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
+        <div class="header__bottom">
+            <div class="header__content">
+                <h1 class="header__title">Nitro Coffee</h1>
+                <p class="header__desc">
+                    Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.
+                </p>
                 <div class = "button-container">
                     <a href="./pages/menu.html" class="button">Shop Now</a>
-                    <div class = "border"></div>
+                    <div class = "button__border"></div>
                 </div>
             </div>
-            <img  class = "image-content" src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
+            <img  class = "header__image" src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
         </div>
     </header>
 
-    <article>
+    <main>
         <section class= "mid-content">
-            <h2>Our Products</h2>
+            <h2 class="mid-content__title">Our Products</h2>
             <div class = "card">
                 <div class = "card__list">
                     <div class = "card__list-item">
@@ -93,59 +95,59 @@
             </div>
             <div class = "button-container">
                 <a href="./pages/menu.html" class="button">View all</a>
-                <div class = "border"></div>
+                <div class = "button__border"></div>
             </div>
-            <div class = "info__section">
-                <div class = "info__section-words">
-                    <h2>We're Different</h2>
-                    <p>We grow and roast our own beans. Every bean, every cup, every step of the way, we strive for excellence.</p>
-                    <div class = "info_icon-container">
+            <div class = "info">
+                <div class = "info__content">
+                    <h2 class="info__title">We're Different</h2>
+                    <p class="info__desc">We grow and roast our own beans. Every bean, every cup, every step of the way, we strive for excellence.</p>
+                    <div class = "info_icons">
                         <img class = "info__icon" src="assets/logos/planting.svg" alt="leaves">
                         <img class = "info__icon" src="assets/logos/coffee-beans.svg" alt="coffee beans">  
                         <img class = "info__icon" src="assets/logos/coffee-cup.svg" alt="coffee cup"> 
                     </div>  
                     <div class = "button-container">
                         <a href="./pages/menu.html" class="button">Learn More</a>
-                        <div class = "border"></div>
+                        <div class = "button__border"></div>
                     </div>
                 </div>
-                <div class = "image-container">
-                    <img class = "info__image--background" src="assets/images/coldbrewbackground.png" alt="drink background">  
-                    <div class = "background-border"></div>
+                <div class = "info__image-container">
+                    <img class = "info__background" src="assets/images/coldbrewbackground.png" alt="drink background">  
+                    <div class = "info__background-border"></div>
                 </div>
                 <div>
-                    <img class = "info__image--can" src="assets/images/tiltedcan.png" alt="tiltedcan">
+                    <img class = "info__can" src="assets/images/tiltedcan.png" alt="tiltedcan">
                 </div>
                 
             </div>
-            <div class="deal-section">
-                <p class="deal">
-                    Get 20% off your first order with code: <span class="bold">FirstNitro</span>
+            <div class="deal">
+                <p class="deal__desc">
+                    Get 20% off your first order with code: <span class="deal__code">FirstNitro</span>
                 </p>
             </div>
         </section>
-    </article>
+    </main>
 
-    <footer>
+    <footer class = "footer">
+        <div class="footer__logos">
+            <img class="footer__logo-left" src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="Left Logo">
+        </div>
+        <div class="footer__details">
+            <h3 class="footer__heading">Address</h3>
+            <p class="footer__address">503 Broadway Penthouse <br>New York</p>
+        </div>
+        <div class="footer__details">
+            <h3 class="footer__heading">Hours</h3>
+            <p class="footer__hours"><span class = "footer__hours-bold">Monday - Friday:</span> 9am - 7pm <br><span class = "bold">Saturday - Sunday:</span> 10am - 5pm</p>
+        </div>
+        <div class="footer__details">
+            <h3 class="footer__heading">Social</h3>
+            <a href = "https://www.facebook.com/"><img class = "footer__icon" src="./assets/logos/Facebook-Icon.svg" alt="facebook"></a>
+            <a href = "https://www.yelp.com/"><img class = "footer__icon" src="./assets/logos/Yelp-Icon.svg" alt="yelp"></a>
+            <a href = "https://www.instagram.com/"><img class = "footer__icon" src="./assets/logos/Instagram-Icon.svg" alt="instagram"></a>
+        </div>
         <div class = "logo-container">
-            <img class="logo-left" src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="Left Logo">
-        </div>
-        <div>
-            <h3>Address</h3>
-            <p>503 Broadway Penthouse <br>New York</p>
-        </div>
-        <div>
-            <h3>Hours</h3>
-            <p><span class = "bold">Monday - Friday:</span> 9am - 7pm <br><span class = "bold">Saturday - Sunday:</span> 10am - 5pm</p>
-        </div>
-        <div>
-            <h3>Social</h3>
-            <a href = "https://www.facebook.com/"><img class = "icon" src="./assets/logos/Facebook-Icon.svg" alt="facebook"></a>
-            <a href = "https://www.yelp.com/"><img class = "icon" src="./assets/logos/Yelp-Icon.svg" alt="yelp"></a>
-            <a href = "https://www.instagram.com/"><img class = "icon" src="./assets/logos/Instagram-Icon.svg" alt="instagram"></a>
-        </div>
-        <div class = "logo-container">
-            <img class="logo-right" src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="Right Logo">
+            <img class="footer__logo-right" src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="Right Logo">
         </div>
     </footer>
     

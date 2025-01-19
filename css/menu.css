@@ -1,11 +1,3 @@
-.header__brand{
-    text-decoration: none;
-    font-weight: 300;
-    color:#393939;
-    font-size: 3.75rem;
-    padding: .9375rem;
-}
-
 .menu {
     position: relative;
     text-align: center;
@@ -36,15 +28,15 @@
     position: absolute;
     top: 13rem; 
     left: 37rem; 
-    width: 300px; 
-    height: 195px; 
+    width: 18.75rem; 
+    height: 12.1875rem; 
     box-sizing: border-box;   
-    border: 5px solid #5BACC3;
+    border: .3125rem solid #5BACC3;
     z-index: 2;     
 }
 
 .menu__image {
-    height: 600px;
+    height: 37.5rem;
     max-width: 100%;
     display: block;
     margin: 0 auto;
