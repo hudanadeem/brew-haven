@@ -14,16 +14,27 @@
 
 .menu-title {
     position: absolute;
-    top: 13rem;
-    left: 37rem;
+    top: 14rem;
+    left: 38rem;
     font-size: 3.75rem;
     font-weight: 300;
     color: white;
-    width: auto;
     background-color: #393939;
-    padding: 3.125rem 4.375rem 3.125rem 4.375rem;           
-    box-sizing: border-box;
-    text-align: center;
+    padding: 3rem 5rem 4rem 3rem;
+    box-sizing: border-box; 
+    text-align:left;
+    z-index: 2;
+}
+
+.menu-title::before {
+    content: ""; 
+    position: absolute;
+    top: -15px; 
+    left: -15px; 
+    right: 15px; 
+    bottom: 15px;
+    border: 5px solid #00a7cf; 
+    z-index: -1; 
 }
 
 .coffee-circle {
@@ -35,6 +46,7 @@
     transform: scale(1.76);
     overflow: hidden;
     position: relative;
+    z-index: 0;
 }
 
 .hot-drinks, .pastries{
