@@ -1,3 +1,25 @@
+$color-white: #ffffff;
+$color-graphite: #393939;
+$color-nitro-blue: #5BACC3;
+$color-nitro-pink: #FFF0ED;
+$color-gray: #F7F7F7;
+
+$font-weight-light: 300;
+$font-weight-medium: 400;
+
+@mixin flex-center($justify: center, $align: center, $direction: row) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+  }
+  
+@mixin text-style($color, $size, $weight: $font-weight-regular) {
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -13,75 +35,65 @@ ul {
 }
 
 h1, h2{
-    font-weight: 300;
-    color:#393939;
-    font-size: 3.75rem;
+    @include text-style($color-graphite, 3.75rem, $font-weight-light);
     padding: .9375rem;
 }
 
 h3{
-    font-weight: 300;
-    color:#393939;
-    font-size: 2.0625rem;
+    @include text-style($color-graphite, 2.0625rem, $font-weight-light);
 }
 
 p{
-    font-weight: 400;
-    font-size: 1.125rem;
-    color:#393939;
+    @include text-style($color-graphite, 1.125rem, $font-weight-medium);
 }
 
 .price {
-    color: #5BACC3;
+    color: $color-nitro-blue;
     padding: .625rem 0; 
 }
 
-.nav__list {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
-
-.nav__link{
-    text-decoration: none;
-    font-size: 1.3125rem;
-    font-weight: 400;
-    color: #393939;
-}
-
-.nav__list-item:last-child .nav__link {
-    color: #5BACC3;
-}
 
 .nav{
     width: 20%;
     margin-right: 2rem;
+
+    &__list {
+        @include flex-center(space-between, center);
+        list-style: none;
+    }
+    
+    &__link{
+        @include text-style($color-graphite, 1.3125rem, $font-weight-medium);
+        text-decoration: none;
+    }
+    
+    &__list-item:last-child &__link {
+        color: $color-nitro-blue;
+    }
 }
 
-.header--top {
-    background-color: #FFF0ED;
-    position: relative;
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-}
+.header{
+    &--top {
+        background-color: $color-nitro-pink;
+        position: relative;
+        @include flex-center(space-between,center);
+    }
+    
+    &__logo{
+        @include flex-center(center, center);
+    }
+    
+    &__logo-link{
+        width: 3.125rem;
+        margin-left: .625rem;
+        height: auto;
+    }
+    
+    &__brand{
+        @include text-style($color-graphite, 3.75rem, $font-weight-light);
+        text-decoration: none;
+        padding: .9375rem;
+        margin-left: -1rem;
+    }
 
-.header__logo{
-    display: flex;
-    align-items: center;
-}
-
-.header__logo-link{
-    width: 3.125rem;
-    margin-left: .625rem;
-    height: auto;
-}
-
-.header__brand{
-    text-decoration: none;
-    font-weight: 300;
-    color:#393939;
-    font-size: 3.75rem;
-    padding: .9375rem;
-    margin-left: -1rem;
 }
