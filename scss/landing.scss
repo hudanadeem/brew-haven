@@ -102,7 +102,7 @@ $color-gray: #F7F7F7;
     @include flex-center(row, center, center);
     margin: 1.25rem 0 3rem;
     padding: 2%;
-    max-width: 1200px;
+    max-width: 75rem;
 
     &__list {
         @include flex-center(row, center, stretch);
@@ -308,14 +308,14 @@ $color-gray: #F7F7F7;
     }
 
     &__logo-right{
-        width: 120px;
+        width: 7.5rem;
         opacity: 25%;
         position: relative;
         left: 7rem;
         bottom: -2rem;
     }
     &__logo-left{
-        width: 120px;
+        width: 7.5rem;
         opacity: 25%;
         position: relative;
         left: -6.5rem;
