@@ -14,20 +14,20 @@ ul {
 }
 
 h1, h2 {
-  font-weight: 500;
+  font-weight: 300;
   color: #393939;
   font-size: 3.75rem;
   padding: 0.9375rem;
 }
 
 h3 {
-  font-weight: 500;
+  font-weight: 300;
   color: #393939;
   font-size: 2.0625rem;
 }
 
 p {
-  font-weight: 800;
+  font-weight: 400;
   font-size: 1.125rem;
   color: #393939;
 }
@@ -46,7 +46,7 @@ p {
 .nav__link {
   text-decoration: none;
   font-size: 1.3125rem;
-  font-weight: 600;
+  font-weight: 400;
   color: #393939;
 }
 
@@ -56,6 +56,7 @@ p {
 
 .nav {
   width: 20%;
+  margin-right: 2rem;
 }
 
 .header--top {
@@ -69,7 +70,6 @@ p {
 .header__logo {
   display: flex;
   align-items: center;
-  gap: 0.625rem;
 }
 
 .header__logo-link {
@@ -84,6 +84,7 @@ p {
   color: #393939;
   font-size: 3.75rem;
   padding: 0.9375rem;
+  margin-left: -1rem;
 }
 
 .header__bottom {
@@ -99,7 +100,7 @@ p {
 }
 .header__desc {
   width: 55%;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.125rem;
   color: #393939;
   padding: 1.25rem;
@@ -119,7 +120,7 @@ p {
   margin-left: 1.2rem;
   margin-bottom: 4rem;
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 500;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -184,8 +185,8 @@ p {
 .card__list-item {
   display: flex;
   flex-direction: column;
-  width: 18.75rem;
-  height: 25rem;
+  width: 20rem;
+  height: 27rem;
   background-color: #ffffff;
   border-radius: 0.625rem;
   padding: 0rem;
@@ -197,8 +198,8 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 18.75rem;
-  height: 12.5rem;
+  width: 20rem;
+  height: 13rem;
   padding: 1.25rem, 0rem, 1.25rem, 0rem;
 }
 .card__list-info {
@@ -212,7 +213,7 @@ p {
      object-fit: contain;
 }
 .card__list-title {
-  font-weight: 550;
+  font-weight: 400;
   color: #393939;
   font-size: 2.0625rem;
   margin-bottom: 0.625rem;
@@ -220,8 +221,8 @@ p {
 .card__list-price {
   color: #5BACC3;
   padding: 0.625rem 0;
-  font-size: 1.375rem;
-  font-weight: bolder;
+  font-size: 2rem;
+  font-weight: 700;
 }
 .card__list-bottom {
   flex: 1;
@@ -236,7 +237,7 @@ p {
 .card__list-pack {
   padding: 0rem;
   margin-bottom: 0.625rem;
-  font-weight: 700;
+  font-weight: 500;
   color: #909090;
 }
 
@@ -265,9 +266,10 @@ p {
 .info_icons {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
+  margin-left: 1.25rem;
 }
 .info__content {
   width: 40%;
@@ -279,11 +281,12 @@ p {
 }
 .info__desc {
   margin-left: 1.25rem;
-  width: 80%;
+  width: 85%;
+  font-weight: 500;
 }
 .info__can {
   position: absolute;
-  bottom: -66.25rem;
+  bottom: -68.25rem;
   right: 18rem;
   transition: transform 0.2s ease-in-out;
   z-index: 2;
@@ -329,19 +332,19 @@ p {
   width: 100%;
 }
 .deal__desc {
-  max-width: 80%;
+  max-width: 95%;
   background-color: #393939;
   color: white;
   font-size: 2.8125rem;
   text-align: center;
-  font-weight: 700;
-  padding: 2.5rem 0rem 2.5rem 0rem;
+  font-weight: 500;
+  padding: 2.75rem 0rem 2.75rem 0rem;
   margin: 0 auto;
   box-sizing: border-box;
   animation: flash 2.5s infinite ease-in-out;
 }
 .deal__code {
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .footer {
@@ -357,7 +360,10 @@ p {
   font-weight: 500;
   padding-bottom: 1.25rem;
 }
-.footer__address, .footer__hours {
+.footer__address {
+  font-weight: 500;
+}
+.footer__hours {
   font-weight: 600;
 }
 .footer__logo-right {
@@ -374,8 +380,11 @@ p {
   left: -6.5rem;
   top: -2rem;
 }
+.footer__hours {
+  font-weight: 500;
+}
 .footer__hours-bold {
-  font-weight: bolder;
+  font-weight: 900;
 }
 .footer__icon {
   width: 3.125rem;

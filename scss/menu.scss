@@ -66,7 +66,7 @@ $color-gray: #F7F7F7;
         @include flex-center(row, center, center);
         list-style: none;
         font-size: 1.3125rem;
-        font-weight: 600;
+        font-weight: 500;
         background-color: $color-graphite;
         height: 5rem;
         position: relative;
@@ -104,11 +104,13 @@ $color-gray: #F7F7F7;
         margin: 0 auto;
         font-style: italic;
         max-width: 31.25rem;
+        font-weight: 500;
     }
     
     &__item-price {
         color: $color-nitro-blue;
         padding: .625rem 0; 
+        font-weight: 500;
     }
 
 }

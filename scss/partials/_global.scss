@@ -13,20 +13,20 @@ ul {
 }
 
 h1, h2{
-    font-weight: 500;
+    font-weight: 300;
     color:#393939;
     font-size: 3.75rem;
     padding: .9375rem;
 }
 
 h3{
-    font-weight: 500;
+    font-weight: 300;
     color:#393939;
     font-size: 2.0625rem;
 }
 
 p{
-    font-weight: 800;
+    font-weight: 400;
     font-size: 1.125rem;
     color:#393939;
 }
@@ -45,7 +45,7 @@ p{
 .nav__link{
     text-decoration: none;
     font-size: 1.3125rem;
-    font-weight: 600;
+    font-weight: 400;
     color: #393939;
 }
 
@@ -55,6 +55,7 @@ p{
 
 .nav{
     width: 20%;
+    margin-right: 2rem;
 }
 
 .header--top {
@@ -68,7 +69,6 @@ p{
 .header__logo{
     display: flex;
     align-items: center;
-    gap: .625rem;
 }
 
 .header__logo-link{
@@ -83,4 +83,5 @@ p{
     color:#393939;
     font-size: 3.75rem;
     padding: .9375rem;
+    margin-left: -1rem;
 }

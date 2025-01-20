@@ -26,7 +26,7 @@ $color-gray: #F7F7F7;
 
     &__desc{
         width: 55%;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 1.125rem;
         color:$color-graphite;
         padding: 1.25rem;
@@ -49,7 +49,7 @@ $color-gray: #F7F7F7;
     margin-left: 1.2rem;
     margin-bottom: 4rem;
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
@@ -80,7 +80,7 @@ $color-gray: #F7F7F7;
             left: 1.25rem; 
             width: calc(100% - 1.25rem); 
             height: calc(100% + 2.1875rem); 
-          }
+        }
     }
 }
 
@@ -113,8 +113,8 @@ $color-gray: #F7F7F7;
     &__list-item {
         display: flex;
         flex-direction: column;
-        width: 18.75rem;
-        height: 25rem;
+        width: 20rem;
+        height: 27rem;
         background-color: $color-white;
         border-radius: .625rem;
         padding: 0rem;
@@ -124,8 +124,8 @@ $color-gray: #F7F7F7;
     &__list-image-container {
         flex: 2;
         @include flex-center(row, center, center);
-        width: 18.75rem;
-        height: 12.5rem;
+        width:20rem;
+        height: 13rem;
         padding: 1.25rem, 0rem, 1.25rem, 0rem;
     }
     
@@ -141,7 +141,7 @@ $color-gray: #F7F7F7;
     }
     
     &__list-title {
-        font-weight: 550;
+        font-weight: 400;
         color: $color-graphite;
         font-size: 2.0625rem;
         margin-bottom: .625rem;
@@ -150,8 +150,8 @@ $color-gray: #F7F7F7;
     &__list-price {
         color: $color-nitro-blue;
         padding: .625rem 0;
-        font-size: 1.375rem;
-        font-weight: bolder;
+        font-size: 2rem;
+        font-weight: 700;
     }
     
     &__list-bottom{
@@ -166,7 +166,7 @@ $color-gray: #F7F7F7;
     &__list-pack{
         padding: 0rem;
         margin-bottom: .625rem;
-        font-weight: 700;
+        font-weight: 500;
         color: #909090;
     }
 }
@@ -196,8 +196,9 @@ $color-gray: #F7F7F7;
     }
     
     &_icons {
-        @include flex-center(row, space-around, center);
+        @include flex-center(row, space-between, center);
         margin-bottom: 2rem;
+        margin-left: 1.25rem;
     }
     
     &__content{
@@ -212,12 +213,13 @@ $color-gray: #F7F7F7;
     
     &__desc{
         margin-left: 1.25rem;
-        width: 80%;
+        width: 85%;
+        font-weight: 500;
     }
     
     &__can{ 
         position: absolute;
-        bottom: -66.25rem;
+        bottom: -68.25rem;
         right:18rem;
         transition: transform 0.2s ease-in-out;
         z-index: 2;
@@ -269,20 +271,20 @@ $color-gray: #F7F7F7;
     width: 100%;
     
     &__desc{
-        max-width: 80%;
+        max-width: 95%;
         background-color: $color-graphite;
         color: white;
         font-size: 2.8125rem;
         text-align: center;
-        font-weight: 700;
-        padding: 2.5rem 0rem 2.5rem 0rem;
+        font-weight: 500;
+        padding: 2.75rem 0rem 2.75rem 0rem;
         margin: 0 auto; 
         box-sizing: border-box;
         animation: flash 2.5s infinite ease-in-out;
     }
     
     &__code{
-        font-weight: bolder;
+        font-weight: 900;
     }    
 }
 
@@ -297,9 +299,14 @@ $color-gray: #F7F7F7;
         padding-bottom: 1.25rem;
     }
 
-    &__address, &__hours{
+    &__address{
+        font-weight: 500;
+    }
+
+    &__hours{
         font-weight: 600;
     }
+
     &__logo-right{
         width: 120px;
         opacity: 25%;
@@ -315,8 +322,12 @@ $color-gray: #F7F7F7;
         top: -2rem;
     }
 
+    &__hours{
+        font-weight: 500;
+    }
+
     &__hours-bold{
-        font-weight: bolder;
+        font-weight: 900;
     }
 
     &__icon{
