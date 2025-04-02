@@ -8,7 +8,7 @@
 
 - 🧋 Stylish landing page for a fictional coffee shop
 - 🪑 Cozy branding with sections like About, Menu
-- 💻 Built with clean and semantic HTML/CSS
+- 💻 Built with clean and semantic HTML/SCSS
 
 ---
 
@@ -18,6 +18,7 @@
   <tr>
     <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="30"/> HTML5</td>
     <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="30"/> CSS3</td>
+    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" width="30"/> SCSS</td>
   </tr>
 </table>
 
