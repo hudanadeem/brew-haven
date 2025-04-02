@@ -90,7 +90,7 @@ p{
     }
     
     &__brand{
-        @include text-style($color-graphite, 3.75rem, $font-weight-light);
+        @include text-style($color-graphite, 2.75rem, $font-weight-light);
         text-decoration: none;
         padding: .9375rem;
         margin-left: -1rem;
