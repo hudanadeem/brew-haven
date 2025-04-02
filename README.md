@@ -40,7 +40,7 @@ Make sure you have the following set up:
 
 ```bash
 git clone https://github.com/hudanadeem/brew-haven.git
-cd coffee-shop-site
+cd brew-haven
 ```
 
 2. **Open the folder in VS Code**
@@ -53,8 +53,3 @@ cd coffee-shop-site
 2. Select **“Open with Live Server”**  
    _OR_ click the **“Go Live”** button in the bottom-right corner of VS Code
 
-3. Your browser will open to:
-
-```
-http://127.0.0.1:5500/index.html
-```
